@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
+<title>Quotes</title>
+
+{% endblock title %}
+
+<!-- <div class="container"> -->
+        {% block word_cloud %}
+        <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="word_sentiment">Wordcloud</a>
+        </li>
+        <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="{{ download_csv }}">Download Data</a>
+        </li>
+        {% endblock word_cloud %}
+
+
+
+<!-- </div> -->
+
+{% block body %}
+    <div class="table-users">
+   <div class="header" style="padding: 50px";>quotes</div>
+
+   <table cellspacing="0" >
+      <tr>
+         <th width="430">Quote</th>
+         <th>Author</th>
+
+      </tr>
+         {% for quote in quotes %}
+      <tr>
+          <td>{{quote['Quote']}}</td>
+         <td>{{quote['Author']}}</td>
+       {% endfor %}
+   </table>
+    </div>
+{% endblock body %}

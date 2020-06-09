@@ -9,6 +9,20 @@ Deploye this website on pivotal platform.
 
 ### 1. Home page with search option.
 
+![](Images/Home.png)
+
+### 2. Below page display all quotes base on category search by user. You can also download data.
+
+![](Images/Quotes.png)
+
+### 3. Worldcloud is text sentiment of the data. You can click onto the wordcloud tab to see the wordcloud.
+
+![](Images/Wordcloud.png)
+
+
+
+
+
 
 
 

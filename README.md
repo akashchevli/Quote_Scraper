@@ -15,7 +15,7 @@ This is the flask base application to scrap the quotes from the website. Website
 
 ![](Images/Quotes.png)
 
-### 3. Worldcloud is text sentiment of the data. You can click onto the wordcloud tab to see the wordcloud.
+### 3. Worldcloud is text sentiment of the data. You can click on the wordcloud tab to see the wordcloud.
 
 ![](Images/Wordcloud.png)
 
